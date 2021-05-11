@@ -22,4 +22,4 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
     - name: Compile
-      run: javac HelloWorld.java
+      run: javac HelloWorld.java && java HelloWorld
