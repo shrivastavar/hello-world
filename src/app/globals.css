@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #1a1a2e;
+  color: #e0e0e0;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.wiki-link {
+  color: #7b68ee;
+  cursor: pointer;
+  border-bottom: 1px solid #7b68ee44;
+}
+
+.wiki-link:hover {
+  border-bottom-color: #7b68ee;
+}
+
+.cm-editor {
+  height: 100%;
+  font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', monospace;
+  font-size: 15px;
+}
+
+.cm-editor.cm-focused {
+  outline: none;
+}
